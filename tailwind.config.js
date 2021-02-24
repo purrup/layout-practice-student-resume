@@ -11,7 +11,7 @@ module.exports = {
         body: ['Poppins']
       },
       backgroundImage: theme => ({
-        'desk': "url('./docs/imgs/desktop-backgroundimg.jpg')",
+        'desk': "url('./imgs/desktop-backgroundimg.jpg')",
        }),
       width: {
         '10vw': '10vw',
