@@ -4292,7 +4292,7 @@ video {
 }
 
 .bg-desk{
-  background-image: url('../docs/imgs/desktop-backgroundimg.jpg');
+  background-image: url('./docs/imgs/desktop-backgroundimg.jpg');
 }
 
 .from-transparent{
@@ -35324,7 +35324,7 @@ video {
   }
 
   .sm\:bg-desk{
-    background-image: url('../docs/imgs/desktop-backgroundimg.jpg');
+    background-image: url('./docs/imgs/desktop-backgroundimg.jpg');
   }
 
   .sm\:from-transparent{
@@ -66220,7 +66220,7 @@ video {
   }
 
   .md\:bg-desk{
-    background-image: url('../docs/imgs/desktop-backgroundimg.jpg');
+    background-image: url('./docs/imgs/desktop-backgroundimg.jpg');
   }
 
   .md\:from-transparent{
@@ -97116,7 +97116,7 @@ video {
   }
 
   .lg\:bg-desk{
-    background-image: url('../docs/imgs/desktop-backgroundimg.jpg');
+    background-image: url('./docs/imgs/desktop-backgroundimg.jpg');
   }
 
   .lg\:from-transparent{
@@ -128012,7 +128012,7 @@ video {
   }
 
   .xl\:bg-desk{
-    background-image: url('../docs/imgs/desktop-backgroundimg.jpg');
+    background-image: url('./docs/imgs/desktop-backgroundimg.jpg');
   }
 
   .xl\:from-transparent{
@@ -158908,7 +158908,7 @@ video {
   }
 
   .\32xl\:bg-desk{
-    background-image: url('../docs/imgs/desktop-backgroundimg.jpg');
+    background-image: url('./docs/imgs/desktop-backgroundimg.jpg');
   }
 
   .\32xl\:from-transparent{
