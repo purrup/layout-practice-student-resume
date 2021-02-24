@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Student Resume</title>
+</head>
+<body class="font-body">
+  <header class="grid-cols-12 bg-primary text-white hidden md:grid">
+    <nav class="col-span-9">
+      <ul class="w-full h-14 flex justify-around items-center capitalize font-extralight xl:text-base lg:text-sm 2xl:w-9/12 2xl:mx-auto">
+        <li>
+          <a href="#about">about</a>
+        </li>
+        <li>
+          <a href="#education-experience">education & experience</a>
+        </li>
+        <li>
+          <a href="#sklls-languages"> Skills & Languages</a>
+        </li>
+        <li>
+          <a href="#awards-interests">Awards & Interests</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <header class="md:hidden bg-primary text-white ">
+    <nav class="w-8/12 h-20 mx-auto flex flex-row justify-between items-center text-2xl">
+      <p class="">Remi Foster.</p>
+      <i id="openMenuBtn" class="fas fa-bars"></i>
+    </nav>
+  </header>
+  <div id="mobileMenu" class="hidden z-10 fixed top-0 left-0 bg-primary text-white h-screen w-screen flex flex-col">
+    <div class="w-8/12 h-20 mx-auto text-right text-3xl">
+      <i id="closeMenuBtn" class="fas fa-times my-8"></i>
+    </div>
+    <ul class="w-8/12 h-1/3 mx-auto flex flex-col content-center justify-around text-center text-xl capitalize">
+      <li>
+        <a href="#about">about</a>
+      </li>
+      <li>
+        <a href="#education-experience">education & experience</a>
+      </li>
+      <li>
+        <a href="#sklls-languages"> Skills & Languages</a>
+      </li>
+      <li>
+        <a href="#awards-interests">Awards & Interests</a>
+      </li>
+    </ul>
+  </div>
+  <main>
+    <section class="h-auto w-full">
+      <div class="md:h-4/5 md:min-h-3/4 text-white grid md:grid-cols-12 grid-cols-1 bg-desk bg-fixed bg-no-repeat bg-cover">
+        <div class="md:col-span-9  bg-gray-800 bg-opacity-60">
+          <div class="w-8/12 mx-auto md:w-auto h-full flex flex-col flex-wrap py-16 text-center content-center md:justify-end md:content-start md:pb-16 md:pl-32 md:text-left">
+            <p class="uppercase tracking-widest font-extralight text-2xl md:text-xl">hello, i'm</p>
+            <p class="text-5xl md:text-7xl py-2 font-semibold">Remi Foster.</p>
+            <p class="italic md:font-light pt-2 text-xl font-extralight max-w-xs md:text-base">International Business & Marketing Student.</p>
+          </div>
+        </div>
+  
+        <div class="bg-primary pt-12 flex flex-col items-center md:flex-none md:col-span-3 md:px-16 md:pt-0">
+  
+          <div id="information" class="max-w-xs flex flex-col items-center pb-16 ">
+
+            <img class="rounded-full h-44 w-44 md:h-10vw md:w-10vw md:min-w-10vw object-cover" src="../profile.jpg" alt="profile picture">
+
+            <p class=" hidden md:font-medium md:text-2xl md:py-5 md:whitespace-nowrap">Remi Foster</p>
+    
+            <div class="text-lg font-light py-8 md:text-sm md:font-extralight text-center md:pb-14 w-8/12">
+              <p>BS in International Business & Marketing. Boston, Massachusetts</p>
+            </div>
+            
+            <div class="text-lg font-light md:text-sm md:font-extralight text-center flex flex-col items-center pb-6">
+              <span>info@me.com</span>
+              <span>(123)-456-7890</span>
+            </div>
+            
+    
+            <ul class="flex flex-row justify-around pb-10 w-8/12 md:text-base text-lg">
+              <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+            
+            <a href="#" class="bg-white text-primary text-lg text-center md:text-xs md:px-5 md:py-3 md:font-extralight px-16 py-5 font-light transition duration-300 ease-in-out hover:bg-gray-200 ">Download CV</a>
+          </div>
+  
+        </div>
+  
+      </div>
+    </section>
+
+    <section id="about" class="h-auto w-full bg-secondary">
+
+      <div class="container w-11/12 md:w-full mx-auto md:py-24 py-10 max-w-4xl">
+
+        <span class="h1">About</span>
+        <span class="h2">my background</span>
+  
+        <p class="text-xl font-extralight leading-loose md:w-9/12 md:text-base">With a passion for business, social media, and all things marketing, I have both the skill set and professional background necessary to dive deep into the marketing world. As an upbeat, self-motivated team player with excellent communication, I envision an exciting future in the industry. Browse my site to see all that I have to offer.</p>
+
+      </div>
+
+    </section>
+
+    <section id="education-experience" class="h-auto w-full">
+      <div class="container w-11/12 md:w-full mx-auto md:py-24 py-10 max-w-4xl grid grid-cols-1 grid-flow-row gap-y-20 md:grid-cols-2 md:gap-16">
+
+        <div class="col-span-1">
+          <span class="h1">education</span>
+          <span class="h2">what i've learned</span>
+
+          <div>
+            <span class="h3">2014-2018</span>
+            <p class="h4">Riverview University – Boston, MA; Class of 2018</p>
+            <p class="h4 md:h4-no-letter-spacing">Bachelor of Science; International Business & Management</p>
+            <p class="h4">GPA: 3.85/4.0</p>
+          </div>
+
+          <div class="py-10">
+            <span class="h3">2016-2017</span>
+            <p class="h4">Study Abroad – John Marco University, Rome, Italy</p>
+            <p class="h4">International Studies & Culture</p>
+          </div>
+
+          <div>
+            <span class="h3">2010-2014</span>
+            <p class="h4">Kimpton High School, Pittsburgh, PA Class of 2014</p>
+            <p class="h4">Class Valedictorian</p>
+          </div>
+
+        </div>
+  
+        <div class="md:col-start-2">
+          <span class="h1">experience</span>
+          <span class="h2">what i've worked</span>
+
+          <div>
+            <span class="h3">Sep. 2017–Present</span>
+            <p class="h4">Json Inc., Campus Brand Ambassador</p>
+          </div>
+
+          <div class="py-10">
+            <span class="h3">May 2016–August 2016</span>
+            <p class="h4">Sterling Productions, Marketing Intern</p>
+          </div>
+
+          <div>
+            <span class="h3">Sep. 2015–May 2016</span>
+            <p class="h4">Riverview University Foundation, Sales Consultant</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="sklls-languages" class="h-auto w-full">
+      <div class="container w-11/12 md:w-full mx-auto md:py-24 py-10 max-w-4xl">
+        <span class="h1">skills & languages</span>
+        <span class="h2">what i bring to the table</span>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 grid-flow-row gap-y-4">
+            <div class="col-start-1 capitalize h4">data analysis</div>
+            <div class="md:col-start-2 md:col-span-2 bg-gray-100 h-px my-auto">
+              <div class="bg-primary w-8/12 py-px"></div>
+            </div>
+            
+            <div class="col-start-1 h4">Content Writing & Editing</div>
+            <div class="md:col-start-2 md:col-span-2 bg-gray-100 h-px my-auto">
+              <div class="bg-primary w-11/12 py-px"></div>
+            </div>
+
+            <div class="col-start-1 h4">HTML & CSS</div>
+            <div class="md:col-start-2 md:col-span-2 bg-gray-100 h-px my-auto">
+              <div class="bg-primary w-6/12 py-px"></div>
+            </div>
+
+            <div class="col-start-1 h4">CMS & CRM</div>
+            <div class="md:col-start-2 md:col-span-2 bg-gray-100 h-px my-auto">
+              <div class="bg-primary w-9/12 py-px"></div>
+            </div>
+
+            <div class="col-start-1 h4">Email Marketing</div>
+            <div class="md:col-start-2 md:col-span-2 bg-gray-100 h-px my-auto">
+              <div class="bg-primary w-11/12 py-px"></div>
+            </div>
+            
+            <div class="col-start-1 h4">Social Media Management</div>
+            <div class="md:col-start-2 md:col-span-2 bg-gray-100 h-px my-auto">
+              <div class="bg-primary w-10/12 py-px"></div>
+            </div>
+
+            <div class="col-start-1 h4">Image & Design Tools</div>
+            <div class="md:col-start-2 md:col-span-2 bg-gray-100 h-px my-auto">
+              <div class="bg-primary w-8/12 py-px"></div>
+            </div>
+
+            <span class="col-start-1 bg-primary bg-opacity-50 h-px w-2/12 my-7 md:my-0"></span>
+
+            <div class="col-start-1 h4">English</div>
+            <div class="md:col-start-2 md:col-span-2 bg-gray-100 h-px my-auto">
+              <div class="bg-primary w-full py-px"></div>
+            </div>
+
+            <div class="col-start-1 h4">Spanish</div>
+            <div class="md:col-start-2 md:col-span-2 bg-gray-100 h-px my-auto">
+              <div class="bg-primary w-10/12 py-px"></div>
+            </div>
+
+            <div class="col-start-1 h4">Portuguese</div>
+            <div class="md:col-start-2 md:col-span-2 bg-gray-100 h-px my-auto">
+              <div class="bg-primary w-10/12 py-px"></div>
+            </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="awards-interests">
+      <div class="container w-11/12 md:w-full mx-auto md:py-24 py-10 max-w-4xl grid gird-cols-1 md:grid-cols-2 gap-16">
+        
+        <div class="col-span-1">
+          <span class="h1">awards</span>
+          <span class="h2">where i shine</span>
+
+          <div class="md:py-4">
+            <p class="h4">Student Honors Society</p>
+            <p class="h4">Omega Professional Fraternity</p>
+            <p class="h4">Riverside Campus Impact Award</p>
+          </div>
+
+        </div>
+
+        <div class="md:col-start-2">
+          <span class="h1">interests</span>
+          <span class="h2">out of office</span>
+
+          <div class="md:py-4 w-10/12 md:w-7/12 flex flex-row flex-nowrap justify-between">
+            <div>
+              <p class="h4">Creative Writing</p>
+              <p class="h4">Photography</p>
+              <p class="h4">Travel</p>
+            </div>
+            <div>
+              <p class="h4">Cooking</p>
+              <p class="h4">Yoga</p>
+              <p class="h4">Reading</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </section>
+
+    <section class="h-auto w-full bg-secondary">
+      <div class="container w-11/12 md:w-full mx-auto md:py-12 py-5 max-w-4xl flex flex-col items-center content-center md:grid md:grid-cols-2 md:grid-rows-2 m:gap-12 ">
+
+        <div class="md:col-span-1 md:w-7/12 w-auto">
+          <p class="md:text-3xl md:py-0 py-6 text-xl italic">I'd love to hear from you.</p>
+        </div>
+
+        <div class="md:col-span-1 md:w-7/12 w-auto h4 flex flex-col">
+          <span>info@me.com</span>
+          <span class="pt-2">(123)-456-7890</span>
+        </div>
+
+        <div class="md:col-span-1 md:row-start-2 md:w-7/12 md:py-0 py-6 w-auto">
+          <ul class="flex flex-row justify-between md:w-8/12 w-32">
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="md:col-span-1 md:row-start-2 md:w-10/12 w-8/12">
+          <div class="flex flex-row justify-between">
+            <a href="#" class="bg-primary font-extralight text-white text-xs px-5 py-3 transition duration-300 ease-in-out hover:opacity-80 ">Download CV</a>
+            <a href="#" class="text-primary text-4xl"><i class="fas fa-chevron-circle-up"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="h-auto w-full bg-primary">
+    <div class="container w-11/12 md:w-full mx-auto md:py-4 md:text-left py-6 max-w-4xl text-white italic font-light text-center">
+      &copy; 2021 made by Vin
+    </div>
+  </footer>
+
+  
+  <script src="https://kit.fontawesome.com/16742da687.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
